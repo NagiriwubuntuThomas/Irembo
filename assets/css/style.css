@@ -1,0 +1,136 @@
+body, html {
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+  background: #fff; /* or your preferred background */
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+.announcement-bar {
+  background-color: #ffd73b;
+  padding: 8px;
+  font-size: 14px;
+}
+
+.announcement-bar a {
+  font-weight: bold;
+  color: #000;
+  text-decoration: underline;
+}
+
+.hero-section {
+  background-color: blue;
+  color: white;
+  padding: 80px 0 60px;
+  text-align: center;
+}
+
+.search-bar {
+  max-width: 500px;
+  margin: 20px auto 0;
+}
+
+.search-bar input {
+  border-radius: 8px;
+  padding: 12px 20px;
+  font-size: 16px;
+}
+
+.family-section {
+  margin: 32px 0;
+}
+
+.family-section h4 {
+  font-weight: bold;
+  margin-bottom: 18px;
+  color: #234;
+}
+
+.family-services {
+  display: flex;
+  gap: 32px;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.family-services ul {
+  list-style: none;
+  padding: 0 28px;
+  margin: 0;
+  flex: 1;
+  border-left: 1px solid #e3eaf1;
+  min-width: 220px;
+}
+
+.family-services ul:first-child {
+  border-left: none;
+  padding-left: 0;
+}
+
+.family-services li {
+  margin-bottom: 14px;
+  font-size: 16px;
+  color: #222;
+  line-height: 1.4;
+}
+
+.family-services a {
+  color: #222;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.family-services a:hover {
+  color: #0072ff;
+  text-decoration: underline;
+}
+
+.services-wrapper {
+  background: #f8fafc;         
+  padding: 32px 0;            
+  margin-bottom: 32px;        
+  box-shadow: 0 2px 12px rgba(0,0,0,0.04); 
+}
+.family-section h4 {
+  color: #234;
+  font-weight: bold;
+  font-size: 1.4rem;
+  margin-bottom: 18px;
+}
+.footer-irembo {
+  background: #040b11;
+  border-top: 1px solid #9fc2e6;
+  font-size: 1.5rem;
+}
+.footer-link {
+  color: #0080dc;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.2s;
+}
+.footer-link:hover {
+  color: #0056b3;
+  text-decoration: underline;
+}
+.footer-copy {
+  color: #ffffff;
+  font-size: 0.98rem;
+}
+.footer-social {
+  color: #0080dc;
+  font-size: 1.3rem;
+  vertical-align: middle;
+  transition: color 0.2s;
+  text-decoration: none;
+}
+.footer-social:hover {
+  color:y#169c21
+}
+
+.container, .card, .bg-light, .rounded-4, .shadow-sm {
+  border: none !important;
+  box-shadow: none !important;
+}

@@ -1,0 +1,3 @@
+<?php
+// Common header content
+?>
